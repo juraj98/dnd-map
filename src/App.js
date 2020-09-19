@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import PinchZoomPan from "react-image-zoom-pan";
+import svg from "./Merral.svg";
 
-function App() {
+const App = () => {
+  console.log(svg);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ maxWidth: "100%", maxHeight: "100%", overflow: "hidden" }}>
+      <PinchZoomPan maxScale={25}>
+        <img alt="map" src={svg} />
+      </PinchZoomPan>
     </div>
   );
-}
+};
 
 export default App;

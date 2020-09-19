@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d4439747.chunk.css",
+    "main.js": "/static/js/main.eb448725.chunk.js",
+    "main.js.map": "/static/js/main.eb448725.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ee21743c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ee21743c.js.map",
+    "static/js/2.78af20c5.chunk.js": "/static/js/2.78af20c5.chunk.js",
+    "static/js/2.78af20c5.chunk.js.map": "/static/js/2.78af20c5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.427fb6bc6b177bd5085e6abba8e05d8c.js": "/precache-manifest.427fb6bc6b177bd5085e6abba8e05d8c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d4439747.chunk.css.map": "/static/css/main.d4439747.chunk.css.map",
+    "static/js/2.78af20c5.chunk.js.LICENSE.txt": "/static/js/2.78af20c5.chunk.js.LICENSE.txt",
+    "static/media/Merral.svg": "/static/media/Merral.7168719c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee21743c.js",
+    "static/js/2.78af20c5.chunk.js",
+    "static/css/main.d4439747.chunk.css",
+    "static/js/main.eb448725.chunk.js"
+  ]
+}
