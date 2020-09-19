@@ -5,8 +5,18 @@ import svg from "./Merral.svg";
 const App = () => {
   console.log(svg);
   return (
-    <div style={{ maxWidth: "100%", maxHeight: "100%", overflow: "hidden" }}>
-      <PinchZoomPan maxScale={25}>
+    <div
+      style={{
+        width: "100vw",
+        height: "100vh",
+      }}
+    >
+      <PinchZoomPan
+        minScale={1}
+        maxScale={25}
+        initialScale={1}
+        position="center"
+      >
         <img alt="map" src={svg} />
       </PinchZoomPan>
     </div>
